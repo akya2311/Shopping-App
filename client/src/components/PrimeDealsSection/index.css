@@ -1,0 +1,30 @@
+.primedeals-list-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.register-prime-img {
+  width: 100%; /* Makes the image scale with its container */
+  
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Prevents inline spacing issues */
+  margin: 0 auto; /* Centers the image */
+  border-radius: 8px; /* Adds rounded corners for a modern look */
+}
+
+
+.primedeals-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}

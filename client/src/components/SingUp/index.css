@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Container */
+.sign-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #e2a54a, #ffcc80);
+}
+
+/* Form Wrapper */
+.form-wrapper {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.form-wrapper h1 {
+  margin: 0;
+  color: #333333;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.password-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  flex: 1;
+}
+
+.toggle-password-btn {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.toggle-password-btn:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button.primary {
+  background-color: #e2a54a;
+  color: #ffffff;
+}
+
+.button.primary:hover {
+  background-color: #d48c3a;
+}
+
+.button.secondary {
+  background: none;
+  color: #e2a54a;
+  font-size: 0.9rem;
+}
+
+.button.secondary:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.switch-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+/* Responsiveness */
+@media (max-width: 480px) {
+  .form-wrapper {
+    padding: 20px;
+  }
+
+  .form-wrapper h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.success-message {
+  color: #4caf50;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+

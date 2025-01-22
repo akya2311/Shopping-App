@@ -1,0 +1,185 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Checkout Container */
+  .checkout-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .checkout-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Cart Summary */
+  .cart-summary {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .order-summary-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .total-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 15px;
+  }
+  
+  /* Form */
+  .checkout-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .checkout-form input,
+  .checkout-form select,
+  .checkout-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fafafa;
+  }
+  
+  .checkout-form textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .checkout-form select {
+    cursor: pointer;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:active {
+    background-color: #003d80;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .checkout-container {
+      padding: 15px;
+    }
+  
+    .checkout-header {
+      font-size: 24px;
+    }
+  
+    .cart-summary {
+      padding: 15px;
+    }
+  
+    .order-summary-title {
+      font-size: 20px;
+    }
+  
+    .cart-item {
+      font-size: 14px;
+    }
+  
+    .total-price {
+      font-size: 18px;
+    }
+  
+    .submit-button {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .checkout-container {
+      padding: 10px;
+    }
+  
+    .checkout-header {
+      font-size: 20px;
+    }
+  
+    .form-group label {
+      font-size: 14px;
+    }
+  
+    .checkout-form input,
+    .checkout-form select,
+    .checkout-form textarea {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  }
+  
